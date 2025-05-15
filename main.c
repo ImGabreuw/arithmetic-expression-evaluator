@@ -27,7 +27,7 @@ int currentPosition = 0;
 int postfixPosition = 0;
 int syntaxError = 0;
 
-// Function for non-terminal symbols
+// Funções para os símbolos não-terminais
 void E();
 void T();
 void F();
