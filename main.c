@@ -1,7 +1,13 @@
 /**
+ * Integrantes:
+ * Gabriel Ken Kazama Geronazzo - 10418247
+ * Lucas Pires de Camargo Sarai - 10418013
+ */
+
+/**
  * Gramática sem recursão à esquerda:
- * E -> T {+T | -T | e}
- * T -> F {*F | /F | %F | e}
+ * E -> T {(+T | -T)}
+ * T -> F {(*F | /F | %F)}
  * F -> num | (E)
  */
 
